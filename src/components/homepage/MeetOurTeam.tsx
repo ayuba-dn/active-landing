@@ -28,9 +28,15 @@ export default function MeetOurTeamSection() {
           })}
 
           <div className='rounded-2xl w-full max-xmd:min-w-[13rem] bg-grey dark:bg-secondary/10 px-3 py-4 h-full xmd:h-fit'>
-            <div className='h-[110px] xlaptop:h-[140px] w-[110px] xlaptop:w-[140px] mx-auto rounded-xl my-7 bg-gray-300 rotate-45'></div>
+            <div className='h-fit w-fit mx-auto rounded-xl my-7  rotate-45 flex justify-center'>
+              <img
+                src={`/Images/members/profile.png`}
+                alt={`Active Tech`}
+                className='h-[9.5rem] xlaptop:h-[12rem] w-[9.5rem] xlaptop:w-[12rem] object-cover -rotate-45'
+              />
+            </div>
 
-            <div className='mt-12'>
+            <div className='mt-4'>
               <div className='md:text-lg font-semibold'>Nelda S. Carter</div>
               <div className='max-laptop:text-sm my-2 opacity-50'>
                 Expertise

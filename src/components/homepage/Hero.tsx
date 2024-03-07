@@ -19,8 +19,8 @@ export default function HeroSection() {
             Boundaries
           </h1>
           <p className='my-6 max-lgMobile:text-sm font-medium'>
-            Active tech is your gateway to highly skilled software engineers in
-            Nigeria. We specialize in providing top-tier talent for a variety of
+            Active tech is your gateway to highly skilled talents across the
+            globe. We specialize in providing top-tier talent for a variety of
             services, including development, design, product management, project
             management, and more.
           </p>
