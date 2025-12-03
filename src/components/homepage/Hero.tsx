@@ -66,11 +66,14 @@ export default function HeroSection() {
             className="w-20 xmd:w-28 md:w-36  dark:bg-transparent"
           />
 
-          <img
-            src="/Images/companies/eduvacity.png"
-            alt="Active Tech Customers/Business"
-            className="w-20 xmd:w-28 md:w-36"
-          />
+          <div className="flex items-center gap-2">
+            <img
+              src="/Images/companies/eduvacity.png"
+              alt="Eduvacity logo"
+              className="w-20 xmd:w-28 md:w-36"
+            />
+            <span className="text-sm md:text-base font-semibold">Eduvacity</span>
+          </div>
         </div>
       </div>
     </div>
